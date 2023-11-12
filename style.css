@@ -1,0 +1,113 @@
+body{
+   padding: 0%; 
+   margin: 0% auto;
+   border: 1px solid transparent;
+   max-width: 1200px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+ul a:hover{
+    color: rgb(218, 153, 218);
+    font-weight: bold;
+}
+.global-padding{
+    padding: 0% 60px;
+}
+.banner-container{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    background-color:rgb(230, 217, 243)
+}
+.banner-title{
+    width: 50%;
+}
+.download-pdf{
+    background-color: rgb(137, 120, 155);
+}
+#b-title{
+    font-size: 40px;
+}
+#b-des{
+    color: rgb(81, 80, 80);
+}
+.m-image{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+    justify-content: center;
+}
+main{
+    padding: 5%; 
+    margin: 0% 0%;
+    max-width: 1200px;
+}
+#desc{
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+}
+.feature{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+}
+#y-list{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.s-desc{
+    font-size: 100%;
+}
+button{
+    background-color: rgb(220, 204, 236);
+    font-weight: bold ;
+}
+#link{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#footer{
+    text-align: center;
+    font-style: italic;
+    background-color: rgb(95, 89, 100);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#bts{
+    color: rgb(246, 245, 248);
+}
+#footerimg{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+h6{
+    text-decoration: underline;
+    font-style: normal;
+}
